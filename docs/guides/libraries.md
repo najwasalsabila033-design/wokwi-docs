@@ -41,3 +41,8 @@ MySensors@2.3.0
 ```
 
 Custom libraries have the following format: the library name, followed by a the text "@wokwi:", and a unique identifier of the library's zip file on Wokwi's servers. You can copy custom libraries to a different project by copying the relevant lines from libraries.txt into the other project.
+[libraries]
+ESP32Servo = "https://github.com/madhephaestus/ESP32Servo/archive/refs/heads/master.zip"
+LiquidCrystal_I2C = "https://github.com/johnrickman/LiquidCrystal_I2C/archive/refs/heads/master.zip"
+DHT-sensor-library = "https://github.com/adafruit/DHT-sensor-library/archive/refs/heads/master.zip"
+
