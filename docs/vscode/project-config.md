@@ -104,3 +104,8 @@ You can add multiple chips to your project by adding multiple `[[chip]]` section
 ## diagram.json
 
 You can copy the [diagram file](../diagram-format) from an existing project on [Wokwi.com](https://wokwi.com). For instance, if you are working on an ESP32 project, you can copy the contents of diagram.json from https://wokwi.com/projects/new/esp32.
+{
+  "dependencies": {
+    "ESP32Servo": "https://github.com/madhephaestus/ESP32Servo/archive/refs/heads/master.zip"
+  }
+}
